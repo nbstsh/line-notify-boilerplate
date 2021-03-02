@@ -3,6 +3,11 @@
 This boilerplate project shows how to use [Line Notify API](https://notify-bot.line.me/doc/ja/) with firebase functions.
 The client side is a super simple react app which only has a button to call firebase functions.
 
+## Prerequisites
+
+- Node.js v12 installed
+- [Firebase CLI](https://firebase.google.com/docs/cli#install_the_firebase_cli) installed
+
 ## Getting Started
 
 ### Prepare Line Notify API Token
@@ -62,6 +67,14 @@ const firebaseConfig = {
 ```
 
 Now you're ready to test out !
+
+### Install dependencies
+
+Install dependencies for both `./` project and `./functions` by running npm install.
+
+```
+npm install && npm --prefix ./functions install
+```
 
 ### Start dev server
 
