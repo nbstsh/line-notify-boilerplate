@@ -72,4 +72,4 @@ yarn dev
 ```
 
 Access http://localhost:3000 and push the button to send a message to line.
-(You need to set access token in `.runtimeconfig.json` to test in dev env. Please refer to **Prepare Line Notify API Token** section.)
+(You need to set access token in `.runtimeconfig.json` to test in dev env. Please refer to [Prepare Line Notify API Token](https://github.com/nbstsh/line-notify-boilerplate#prepare-line-notify-api-token) section.)
