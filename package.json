@@ -22,8 +22,9 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
+		"use:default": "firebase use default",
 		"emulator": "npm --prefix functions run emulator",
-		"dev": "npm run emulator & npm run start"
+		"dev": "npm run use:default && npm run emulator & npm run start"
 	},
 	"eslintConfig": {
 		"extends": [
