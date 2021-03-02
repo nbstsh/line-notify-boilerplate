@@ -9,9 +9,6 @@ if (!lineNotifyToken) {
 
 const LINE_NOTIFY_ENDPOINT = 'https://notify-api.line.me/api/notify';
 
-/**
- * send message to the room with line notify
- */
 const sendMessage = async (message: string) => {
 	await axios.post(LINE_NOTIFY_ENDPOINT, qs.stringify({ message }), {
 		headers: {
