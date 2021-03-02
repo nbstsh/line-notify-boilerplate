@@ -17,11 +17,11 @@ firebase functions:config:set line_notify.token=YOUR_TOKEN_COMES_HERE
 
 If you want to test the functionality in dev env, set the access token in `functions/.runtimeconfig.json` (which is used by firebase functions emulator) like this:
 
-```json
+```
 {
-	"line_notify": {
-		"token": "YOUR TOKEN COMES HERE"
-	}
+  "line_notify": {
+    "token": "YOUR TOKEN COMES HERE"
+  }
 }
 ```
 
@@ -48,16 +48,16 @@ Before you run dev server, follow the steps below to set up your firebase projec
 
 [Get your firebase prject config object](https://support.google.com/firebase/answer/7015592?hl=en) and replace firebaseConfig object with yours.
 
-```ts
+```
 //TODO: repalce with your firebase config
 const firebaseConfig = {
-	apiKey: '',
-	authDomain: '',
-	databaseURL: '',
-	projectId: '',
-	storageBucket: '',
-	messagingSenderId: '',
-	appId: '',
+  apiKey: '',
+  authDomain: '',
+  databaseURL: '',
+  projectId: '',
+  storageBucket: '',
+  messagingSenderId: '',
+  appId: '',
 };
 ```
 
