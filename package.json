@@ -21,7 +21,9 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"emulator": "npm --prefix functions run emulator",
+		"dev": "npm run emulator & npm run start"
 	},
 	"eslintConfig": {
 		"extends": [
